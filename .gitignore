@@ -1,0 +1,47 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build output
+build/
+dist/
+
+# Large FFmpeg/FFprobe binaries
+ffprobe.exe
+ffmpeg-*/
+ffmpeg*.exe
+ffprobe*.exe
+
+# Environment / secrets
+.env
+.env.*
+*.key
+
+# IDE files
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Access databases / customer data
+*.mdb
+*.accdb
+*.laccdb
+
+# Media that may be used for testing
+*.mp4
+*.avi
+*.mov
+*.mkv
